@@ -10,7 +10,7 @@ jobs:
 
     steps:
     - name: Mendownload Ngrok.
-      run: |
+      run: 9999|
         Invoke-WebRequest https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
         Invoke-WebRequest https://raw.githubusercontent.com/hackyou19/holatext/main/start1.bat -OutFile start.bat
         Invoke-WebRequest https://telegra.ph/file/d6a11d84f0e308f56cf5a.png -OutFile wallpaper.bmp
